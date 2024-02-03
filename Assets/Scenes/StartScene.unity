@@ -403,7 +403,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2045383415}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2da19cf8028e0624e90c55f489b0978d, type: 3}
+  m_Script: {fileID: 11500000, guid: 02c3b4b907e91cb48817bc036c9b7a0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   currentGameState: 0
@@ -510,10 +510,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7e3c4564c373b046a5a430ede5987c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenu: {fileID: 1488882044287595154}
-  pausemenu: {fileID: 0}
-  gameSceneName: CheckingSheetScene
-  mainMenuSceneName: StartScene
 --- !u!114 &1985621165797153339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -773,6 +769,7 @@ GameObject:
   - component: {fileID: 402999013456625441}
   - component: {fileID: 6023976196873539897}
   - component: {fileID: 1550240600804165065}
+  - component: {fileID: 6497132022961081206}
   m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
@@ -863,7 +860,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1550240600804165065}
+      - m_Target: {fileID: 6497132022961081206}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: StartGame
         m_Mode: 1
@@ -1071,6 +1068,21 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &6497132022961081206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3695025226290616796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7eec16809d73644cbc578680eef909e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMenu: {fileID: 1488882044287595154}
+  gameSceneName: CheckingSheetScene
+  mainMenuSceneName: StartScene
 --- !u!224 &7109578044856000395
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1173,7 +1185,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1550240600804165065}
+      - m_Target: {fileID: 6497132022961081206}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: LeaveGame
         m_Mode: 1
