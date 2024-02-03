@@ -1,0 +1,40 @@
+1,need fixing by merchant,>10,2,implusive purchase,no additional packaging,arrive early,yes(approved)
+6,need fixing by merchant,<=50,1,fraudulent purchase,large box,on-time,yes(approved)
+5,need fixing by merchant,>50,3,lower than expectation,Small box,arrive early,yes(approved)
+2,need fixing by merchant,>50,3,received wrong product/size,Envelope Package,arrive early,yes(approved)
+5,damaged,>50,1,implusive purchase,large box,late,yes(approved)
+3,new ,<=50,5,arrived too late,medium box,arrive early,yes(approved)
+1,new ,<=50,2,fraudulent purchase,Plastic Bag,on-time,no
+6,packing needed,>10,4,ordered wrong product/size,medium box,on-time,no
+4,need fixing by merchant,>50,3,arrived too late,medium box,arrive early,no
+6,need fixing by merchant,>10,4,fraudulent purchase,Plastic Bag,late,yes(approved)
+3,need fixing by merchant,>10,3,does not match description,Small box,late,yes(approved)
+5,packing needed,>50,2,does not match description,no additional packaging,late,yes(approved)
+2,need fixing by merchant,<=50,2,lower than expectation,large box,on-time,no
+1,new ,>10,1,arrived too late,Plastic Bag,late,yes(approved)
+6,damaged,>50,1,damaged/defective,medium box,on-time,yes(approved)
+1,damaged,>10,5,received wrong product/size,no additional packaging,on-time,no
+5,need fixing by merchant,<=50,5,ordered wrong product/size,Plastic Bag,late,no
+1,packing needed,>10,2,does not match description,no additional packaging,on-time,yes(approved)
+3,need fixing by merchant,>50,1,arrived too late,Plastic Bag,arrive early,no
+5,damaged,>20,5,lower than expectation,no additional packaging,on-time,no
+4,need fixing by merchant,>20,5,implusive purchase,Small box,late,yes(approved)
+6,need fixing by merchant,>20,5,fraudulent purchase,Envelope Package,on-time,yes(approved)
+5,need fixing by merchant,>50,4,lower than expectation,Envelope Package,arrive early,no
+6,new ,>10,3,ordered wrong product/size,Small box,arrive early,no
+1,packing needed,>20,3,implusive purchase,medium box,on-time,yes(approved)
+5,damaged,>50,5,ordered wrong product/size,large box,on-time,no
+4,damaged,<=50,1,does not match description,medium box,late,no
+2,packing needed,>10,4,received wrong product/size,Small box,on-time,no
+3,new ,>20,2,implusive purchase,Small box,on-time,yes(approved)
+1,need fixing by merchant,>20,1,no longer needed,Small box,arrive early,yes(approved)
+1,damaged,<=50,5,lower than expectation,Envelope Package,on-time,no
+1,need fixing by merchant,<=50,5,lower than expectation,Small box,arrive early,no
+3,new ,>20,3,lower than expectation,Plastic Bag,on-time,no
+4,new ,>50,1,lower than expectation,no additional packaging,on-time,no
+5,new ,<=50,5,fraudulent purchase,no additional packaging,late,yes(approved)
+3,damaged,<=50,4,no longer needed,Plastic Bag,late,yes(approved)
+3,need fixing by merchant,>50,2,does not match description,Plastic Bag,on-time,no
+4,damaged,>50,1,implusive purchase,no additional packaging,late,no
+2,damaged,>20,4,lower than expectation,Plastic Bag,late,no
+1,new ,<=50,2,implusive purchase,Small box,on-time,yes(approved)
