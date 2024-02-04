@@ -190,7 +190,7 @@ public class CompareData : MonoBehaviour
         string returnRateText = cells[2].Trim();
         switch (returnRateText)
         {
-            case ">10":
+            case "<10":
                 totalPoint -= 5;
                 break;
             case ">20":
