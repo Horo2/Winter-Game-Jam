@@ -76,8 +76,8 @@ public class CompareData : MonoBehaviour
             isCorrectCheck[i] = false;
         }
 
-       //gameState = GameObject.Find("GameStateManager").GetComponent<GameStateManager>();
-        gameState = GameObject.Find("TestingGameStateManager").GetComponent<GameStateManager>();
+       gameState = GameObject.Find("GameStateManager").GetComponent<GameStateManager>();
+        //gameState = GameObject.Find("TestingGameStateManager").GetComponent<GameStateManager>();
         gameState.Days = 1;
         
 
