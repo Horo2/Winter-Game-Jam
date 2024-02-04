@@ -37,8 +37,6 @@ public class CheckSheet : MonoBehaviour
     private int totalPoint;
     public int returnPoint = 60;
 
-    private bool isExpect;
-    private bool isDescription;
    
     void Start()
     {
@@ -57,13 +55,10 @@ public class CheckSheet : MonoBehaviour
                 totalPoint += 20;
                 break;
             case SellerRatingType.TwoStars:// 2 star
-                totalPoint += 10;
-                if (isDescription) { totalPoint += 15; }
-                if (isExpect) { totalPoint += 10; }               
+                totalPoint += 10;             
                 break;
             case SellerRatingType.ThreeStars: // 3 star
                 totalPoint += 5;
-                if (isDescription || isExpect) { totalPoint += 10; }
                 break;
             // 4 & 5 star, do nothing
             case SellerRatingType.FourStars:
