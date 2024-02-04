@@ -10,7 +10,7 @@ public class MonitorUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        buttonToChange = GameObject.Find("ButtonName").GetComponent<Button>();
+        //buttonToChange = GameObject.Find("ButtonName").GetComponent<Button>();
     }
 
 
