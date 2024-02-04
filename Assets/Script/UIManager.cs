@@ -57,6 +57,7 @@ public class UIManager : MonoBehaviour
             {
                 //Stop the game
                 GameStateManager.Instance.ChangeGameState(GameStateManager.GameState.Paused);
+                Cursor.lockState = CursorLockMode.None;
                 pauseMenu.SetActive(true);
             }
         }
@@ -67,6 +68,7 @@ public class UIManager : MonoBehaviour
             {
                 //Back to in game
                 GameStateManager.Instance.ChangeGameState(GameStateManager.GameState.InGame);
+                Cursor.lockState = CursorLockMode.Locked;
                 pauseMenu.SetActive(false);
             }
         }
@@ -95,6 +97,7 @@ public class UIManager : MonoBehaviour
     public void ContinueButton()
     {
         GameStateManager.Instance.ChangeGameState(GameStateManager.GameState.InGame);
+        Cursor.lockState = CursorLockMode.Locked;
         pauseMenu.SetActive(false);
     }
 }
