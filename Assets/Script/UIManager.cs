@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
     public GameObject mainMenu;
+    public GameObject pauseMenu;
 
 
     public string gameSceneName;
@@ -39,6 +40,7 @@ public class UIManager : MonoBehaviour
         {
             GameStateManager.Instance.ChangeGameState(GameStateManager.GameState.MainMenu);
             mainMenu.SetActive(true);
+            pauseMenu.SetActive(false);
         }
         else
         {
@@ -46,6 +48,29 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (GameStateManager.Instance.currentGameState == GameStateManager.GameState.InGame)
+        {
+            Debug.Log("”Œœ∑÷–£°£°£°£°£°");
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                //Stop the game
+                GameStateManager.Instance.ChangeGameState(GameStateManager.GameState.Paused);
+                pauseMenu.SetActive(true);
+            }
+        }
+        else if (GameStateManager.Instance.currentGameState == GameStateManager.GameState.Paused)
+        {
+            Debug.Log("‘›Õ£÷–£°£°£°£°");
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                //Back to in game
+                GameStateManager.Instance.ChangeGameState(GameStateManager.GameState.InGame);
+                pauseMenu.SetActive(false);
+            }
+        }
+    }
     public void StartGame()
     {
         GameStateManager.Instance.ChangeGameState(GameStateManager.GameState.InGame);
@@ -57,5 +82,19 @@ public class UIManager : MonoBehaviour
     public void LeaveGame()
     {
         Application.Quit();
+    }
+
+    public void ReturnMainMenu()
+    {
+        GameStateManager.Instance.ChangeGameState(GameStateManager.GameState.MainMenu);
+        SceneManager.LoadScene(mainMenuSceneName);
+        mainMenu.SetActive(true);
+        pauseMenu.SetActive(false);
+    }
+
+    public void ContinueButton()
+    {
+        GameStateManager.Instance.ChangeGameState(GameStateManager.GameState.InGame);
+        pauseMenu.SetActive(false);
     }
 }

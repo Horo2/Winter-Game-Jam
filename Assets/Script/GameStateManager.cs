@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -54,6 +55,11 @@ public class GameStateManager : MonoBehaviour
         currentBonus = 0;
         currentDeduction = 0;
         Days = 1;
+    }
+
+    private void Update()
+    {
+       
     }
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
