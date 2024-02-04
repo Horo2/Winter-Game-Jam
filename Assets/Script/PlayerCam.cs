@@ -7,6 +7,8 @@ public class PlayerCam : MonoBehaviour
     public float SensX;
     public float SensY;
 
+    public GameObject hint;
+
     public Transform orientation;
 
     float XRotation;
@@ -88,6 +90,7 @@ public class PlayerCam : MonoBehaviour
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
             orientation.rotation = Quaternion.Euler(focusedRotation);
+            hint.SetActive(false);
         }
         else
         {
