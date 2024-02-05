@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class UIManager : MonoBehaviour
 {
     public GameObject mainMenu;
@@ -13,6 +14,14 @@ public class UIManager : MonoBehaviour
     public string mainMenuSceneName;
 
     public static UIManager Instance;
+
+    public GameObject scrollView;
+    public GameObject ReadContract;
+    public GameObject StartButton;
+    
+
+
+
     private void Awake()
     {
         // Singleton pattern
@@ -79,6 +88,7 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene(gameSceneName);
         //deploymentMenu.SetActive(true);
         mainMenu.SetActive(false);
+        scrollView.SetActive(false);
 
     }
     public void LeaveGame()
@@ -100,4 +110,17 @@ public class UIManager : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         pauseMenu.SetActive(false);
     }
+
+    public void PressReadMenu()
+    {
+        //Turn on ReadMenu
+        scrollView.SetActive(true);
+        ReadContract.SetActive(false);
+        StartButton.SetActive(true);
+        
+
+
+
+    }
+
 }
