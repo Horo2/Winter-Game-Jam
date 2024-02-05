@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.625131, g: 0.69543827, b: 0.78916645, a: 1}
+  m_IndirectSpecularColor: {r: 0.62513727, g: 0.695441, b: 0.78916824, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -159,7 +159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 3.600006, y: 0}
   m_SizeDelta: {x: 20, y: -17}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &63990738
@@ -205,8 +205,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 598045847}
   m_HandleRect: {fileID: 598045846}
   m_Direction: 2
-  m_Value: 0.9999992
-  m_Size: 0.39924756
+  m_Value: 0.9999993
+  m_Size: 0.3821964
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -722,7 +722,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0.0004272461}
-  m_SizeDelta: {x: 0, y: 541.32}
+  m_SizeDelta: {x: 0, y: 581.52}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &423215601
 MonoBehaviour:
@@ -744,30 +744,30 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Welcome to the order processing center and be a member of the support
-    crew! Amwalapet awaits your joining. \r\n\nAs one of the support crew members,
-    your job is to check on the request of returning packages. Amwalapet is focused
-    on merchant and customer satisfaction and would like to further reduce the return
-    rate of products in circulation in our company. In order to ensure this, we will
-    review the customer's return request.In order to help you better identify the
-    customer return cases, here are some standards you need to check before starting:
-    \r\n\nwhen the package is received/confirmed by the customer service center,
-    our recorder will mark down the package info, including its status while receiving.
-    And the status of the package should take the highest priority while analyzing
-    the case whether we should pass or fail this return. \r\n\r\nAll returning packages
-    have been categorized into four types based on its status: \r\n1. new - return
-    in original package, unopen\r\n2. packing needed - removal of outside packaging,
-    can resell directly after repacking\r\n3. fixing needed - need to return to the
-    merchant and fix before selling, such as missing parts or not passing quality
-    test\r\n4. damaged - not functioning properly\r\n\r\nNow, you can read the information
-    that we collected from the system about this item\u2019s reason for returning
-    along with the customer & merchant\u2019s information. Please be aware that we
-    also provided the package delivery information with it for you to take in consideration
-    before making your final decision. \r\n\r\nThis will be your chance to show what
-    you can do! As one of our support team members, is your time to determine if
-    the request is acceptable or not! During the training phase, we will give you
-    a report based on the cases sent to you, each mistaken case will result as deduction
-    to your earning of the day. Good luck!\r\n"
+  m_text: "Dear Sender,\nWelcome to the order processing center and be a member of
+    the support crew! Amwalapet awaits your joining. \r\n\nAs one of the support
+    crew members, your job is to check on the request of returning packages. Amwalapet
+    is focused on merchant and customer satisfaction and would like to further reduce
+    the return rate of products in circulation in our company. In order to ensure
+    this, we will review the customer's return request.In order to help you better
+    identify the customer return cases, here are some standards you need to check
+    before starting: \r\n\nwhen the package is received/confirmed by the customer
+    service center, our recorder will mark down the package info, including its status
+    while receiving. And the status of the package should take the highest priority
+    while analyzing the case whether we should pass or fail this return. \r\n\r\nAll
+    returning packages have been categorized into four types based on its status:
+    \r\n1. new - return in original package, unopen\r\n2. packing needed - removal
+    of outside packaging, can resell directly after repacking\r\n3. fixing needed
+    - need to return to the merchant and fix before selling, such as missing parts
+    or not passing quality test\r\n4. damaged - not functioning properly\r\n\r\nNow,
+    you can read the information that we collected from the system about this item\u2019s
+    reason for returning along with the customer & merchant\u2019s information. Please
+    be aware that we also provided the package delivery information with it for you
+    to take in consideration before making your final decision. \r\n\r\nThis will
+    be your chance to show what you can do! As one of our support team members, is
+    your time to determine if the request is acceptable or not! During the training
+    phase, we will give you a report based on the cases sent to you, each mistaken
+    case will result as deduction to your earning of the day. Good luck!\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -794,14 +794,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14
-  m_fontSizeBase: 14
+  m_fontSize: 14.12
+  m_fontSizeBase: 14.12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1060,7 +1060,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 430612531}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.600752}
+  m_AnchorMin: {x: 0, y: 0.61780316}
   m_AnchorMax: {x: 1, y: 0.9999995}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -1137,8 +1137,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0004921, y: 0.00094432}
-  m_SizeDelta: {x: 800, y: 414.32}
+  m_AnchoredPosition: {x: 0.000089198, y: 0.00026798}
+  m_SizeDelta: {x: 800, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &728768335
 MonoBehaviour:
@@ -1437,7 +1437,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 303.46, y: -127.689}
+  m_AnchoredPosition: {x: 309, y: -139}
   m_SizeDelta: {x: 118.93, y: 31.377}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1200404897
@@ -1884,15 +1884,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.79607844}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 0}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2237,7 +2237,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 303.46, y: -176.277}
+  m_AnchoredPosition: {x: 303.46, y: -191}
   m_SizeDelta: {x: 118.93, y: 28.553}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4037856762374234293
@@ -2533,7 +2533,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 303.46, y: -127.689}
+  m_AnchoredPosition: {x: 303.46, y: -139}
   m_SizeDelta: {x: 118.93, y: 31.377}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &7570606888786660871

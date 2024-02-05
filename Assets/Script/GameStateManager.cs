@@ -25,7 +25,7 @@ public class GameStateManager : MonoBehaviour
     public int BasePaid = 3600;
     public int bonus = 120;
     public int deduction  = -180;
-    public int extraBonus = 500;
+    public int extraBonus = 0;
     public int totalToday;
 
     public int currentBonus;

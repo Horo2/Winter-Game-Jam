@@ -290,10 +290,12 @@ public class CompareData : MonoBehaviour
         //Checking is has extra bonus
         if (faildCheck == 0)
         {
+            gameState.extraBonus = 500;
             gameState.totalToday = gameState.BasePaid + gameState.currentBonus + gameState.currentDeduction + gameState.extraBonus;
         }
         else if (faildCheck != 0)
         {
+            gameState.extraBonus = 0;
             gameState.totalToday = gameState.BasePaid + gameState.currentBonus + gameState.currentDeduction;
         }
         gameState.PlayerCurrence += gameState.totalToday; //add Today amount to Player currence
