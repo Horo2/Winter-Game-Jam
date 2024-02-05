@@ -514,6 +514,7 @@ public class CompareData : MonoBehaviour
         {
             //GameOver
             Debug.Log("ÓÎÏ·½áÊø£¡£¡£¡£¡£¡£¡");
+            GameObject.Find("Menu").GetComponent<UIManager>().ReturnMainMenu();
         }
         
     }

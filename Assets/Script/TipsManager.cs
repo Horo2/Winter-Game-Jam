@@ -13,11 +13,11 @@ public class TipsManager : MonoBehaviour
         "Big companies may purchase a lot of items in one single shopping, we will ship them in large boxes with wrapping!",
         "Remember to keep your customer feedback positive looking!",
         "Have you ever checked the newspaper? Understanding the current trends can help you become a rich person here!",
-        "Never challenge your boss¡­"
+        "Never challenge your boss..."
     };
 
     private int lastTipIndex = -1; // Save last tips
-    private float tipDuration = 5f; // each tips showing times
+    private float tipDuration = 10f; // each tips showing times
     // Start is called before the first frame update
     void Start()
     {
