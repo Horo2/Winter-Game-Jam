@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2441584138433860881}
-  - component: {fileID: 5063132410916901585}
   m_Layer: 0
   m_Name: CompareData
   m_TagString: Untagged
@@ -32,53 +31,3 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5063132410916901585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6515320722273875119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b411a773f578a33459f2372127fa3d92, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemDataFile: {fileID: 4900000, guid: 71875dd58bcc5ad4288f7171fb75b925, type: 3}
-  itemTypeText: {fileID: 0}
-  statusOfItemText: {fileID: 0}
-  returnRateText: {fileID: 0}
-  reviewScoreText: {fileID: 0}
-  returnReasonText: {fileID: 0}
-  deliveryInfoPackingText: {fileID: 0}
-  deliveryTimeText: {fileID: 0}
-  arraivalPictureText: {fileID: 0}
-  basePay: {fileID: 0}
-  bonus: {fileID: 0}
-  deduction: {fileID: 0}
-  extralBonus: {fileID: 0}
-  totalToday: {fileID: 0}
-  dayNumber: {fileID: 0}
-  daysNews:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  isCorrectCheck: 0000000000
-  EndingNumber:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  lastEarning: {fileID: 0}
-  checkSheetPerfab: {fileID: 0}
-  summaryPagePerfab: {fileID: 0}
-  newsPagePerfab: {fileID: 0}
-  EndingPerfab: {fileID: 0}
-  returnPoint: 60
-  correctCheck: 0
-  faildCheck: 0
-  nextEnd: 0
