@@ -16,7 +16,8 @@ public class TipsManager : MonoBehaviour
         "Never challenge your boss¡­"
     };
 
-    private float tipDuration = 20f; // each tips showing times
+    private int lastTipIndex = -1; // Save last tips
+    private float tipDuration = 5f; // each tips showing times
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +28,15 @@ public class TipsManager : MonoBehaviour
     {
         while (true)
         {
-            string currentTip = tips[Random.Range(0, tips.Length)];
+            int tipIndex = Random.Range(0, tips.Length);
+            // make sure each tips diffenert to last
+            while (tipIndex == lastTipIndex)
+            {
+                tipIndex = Random.Range(0, tips.Length); // reselect tips
+            }
+            lastTipIndex = tipIndex; // save last showing tips
+
+            string currentTip = tips[tipIndex]; ;
             tipsText.text = currentTip;
             tipsText.CrossFadeAlpha(1f, 0.5f, false);
             yield return new WaitForSeconds(tipDuration);
